@@ -1657,13 +1657,13 @@ ol {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header .navbar-brand img {
-    width: 125px;
+    width: 40px;
   }
 }
 
 @media (max-width: 767px) {
   .header .navbar-brand img {
-    width: 120px;
+    width: 40px;
   }
 }
 
@@ -2041,13 +2041,13 @@ ol {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-area {
-    background-image: none;
+    background-image: url("../images/photos/bg.png");
   }
 }
 
 @media (max-width: 767px) {
   .hero-area {
-    background-image: none;
+    background-image: url("../images/photos/bg.png");
   }
 }
 
@@ -2538,13 +2538,13 @@ ol {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer .single-footer.f-about .logo img {
-    width: 125px;
+    width: 50px;
   }
 }
 
 @media (max-width: 767px) {
   .footer .single-footer.f-about .logo img {
-    width: 120px;
+    width: 50px;
   }
 }
 
