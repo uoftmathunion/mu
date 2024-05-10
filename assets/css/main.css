@@ -1657,13 +1657,13 @@ ol {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header .navbar-brand img {
-    width: 40px;
+    width: 30px;
   }
 }
 
 @media (max-width: 767px) {
   .header .navbar-brand img {
-    width: 40px;
+    width: 30px;
   }
 }
 
