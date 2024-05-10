@@ -2467,12 +2467,20 @@ ol {
     font-size: 25px;
     line-height: 38px;
   }
+  .call-action .text h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 767px) {
   .call-action .text h2 {
     font-size: 22px;
     line-height: 32px;
+  }
+  .call-action .text h3 {
+    font-size: 18px;
+    line-height: 28px;
   }
 }
 
