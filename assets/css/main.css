@@ -2490,7 +2490,11 @@ ol {
 }
 
 .call-action .button {
-  float: right;
+  float: none;
+}
+
+.call-action a:hover {
+  color: #7E57FF;
 }
 
 @media (max-width: 767px) {
