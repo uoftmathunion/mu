@@ -247,13 +247,27 @@
                             <div class="single-footer newsletter">
                                 <h3>Subscribe</h3>
                                 <p>Subscribe to our newsletter for the latest updates</p>
-                                <form action="https://script.google.com/macros/s/AKfycbxQhGyLKy-CYClhkOGYbloNZzT_5758nxljAxI1YyFb4Irr_850nbSugOA9rUyYWOPb/exec" method="post" class="newsletter-form" id="email-form">
+                                <form  method="POST" class="newsletter-form" id="email-form">
                                     <input type="email" name="your-email" placeholder="Email" required>
                                     <div class="button">
-                                        <button type="submit" class="sub-btn" id="submit"><i class="lni lni-envelope"></i>
+                                        <button type="submit" class="sub-btn" id="submit-button"><i class="lni lni-envelope"></i>
                                         </button>
                                     </div>
                                 </form>
+                                <div
+                                id="message"
+                                style="
+                                    display: none;
+                                    width: 100%;
+                                    margin: 10px 0 0 0;
+                                    font-weight: bold;
+                                    color: white;
+                                    padding: 8px;
+                                    background-color: none;
+                                    border-radius: 4px;
+                                    border-color: none;
+                                "
+                                ></div>
                             </div>
                             <!-- End Single Widget -->
                         </div>
@@ -294,6 +308,8 @@
     <script src="assets/js/glightbox.min.js"></script>
     <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/form.js"></script>
+
     <script>
         //========= testimonial 
         tns({
