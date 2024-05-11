@@ -46,7 +46,7 @@ document.getElementById("email-form").addEventListener("submit", function (e) {
             setTimeout(function () {
             document.getElementById("message").textContent = "";
             document.getElementById("message").style.display = "none";
-            }, 5000);
+            }, 2000);
         })
         .catch(function (error) {
             // Handle errors, you can display an error message here
