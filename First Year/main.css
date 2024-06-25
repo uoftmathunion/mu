@@ -2334,7 +2334,8 @@ ol {
   color: #7E57FF;
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 
 .about .content h2 {
@@ -2361,7 +2362,7 @@ ol {
 
 .about .content p {
   font-size: 16px;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .about .content .list .single-list {
