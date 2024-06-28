@@ -902,7 +902,7 @@ ol {
   z-index: 2;
   text-align: left;
   background-color: #081828;
-  background-image: url("../assets/images/photos/bg.png");
+  background-image: url("assets/images/photos/bg.png");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
