@@ -902,7 +902,7 @@ ol {
   z-index: 2;
   text-align: left;
   background-color: #081828;
-  background-image: url("assets/images/photos/bg.png");
+  background-image: url("../images/photos/bg.png");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
@@ -2031,7 +2031,7 @@ ol {
 ========================================*/
 .hero-area {
   position: relative;
-  background-image: url("../assets/images/photos/bg.png");
+  background-image: url("../images/photos/bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2041,13 +2041,13 @@ ol {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-area {
-    background-image: url("../assets/images/photos/bg.png");
+    background-image: url("../images/photos/bg.png");
   }
 }
 
 @media (max-width: 767px) {
   .hero-area {
-    background-image: url("../assets/images/photos/bg.png");
+    background-image: url("../images/photos/bg.png");
   }
 }
 
